@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "69b6e3d48699367495ae9b23"
+  },
+  "branchName": "AMSangrur",
+  "branchCode": "1803",
+  "location": "Sangrur Punjab",
+  "manager": "Aman",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b6f58460e3a7b86acf4de5"
+  },
+  "branchName": "Barri",
+  "branchCode": "1857",
+  "location": "PJB",
+  "manager": "Sahil",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b6f5a660e3a7b86acf4de9"
+  },
+  "branchName": "cheema",
+  "branchCode": "1812",
+  "location": "PJB",
+  "manager": "Jatin",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69b707f0194f8c22ed97582c"
+  },
+  "branchName": "Sangrur",
+  "branchCode": "1802",
+  "location": "Main Sangrur",
+  "manager": "",
+  "__v": 0
+}]

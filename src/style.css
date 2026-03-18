@@ -1,0 +1,64 @@
+/* Background */
+body {
+  background: linear-gradient(to right, #e3f2fd, #e8f5e9);
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar / Header */
+.header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border: none;
+}
+
+.btn-success {
+  background-color: #198754;
+}
+
+/* Dashboard cards */
+.dashboard-card {
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.blue-card {
+  background-color: #0d6efd;
+}
+
+.green-card {
+  background-color: #198754;
+}
+
+.light-card {
+  background-color: #f8f9fa;
+}
+
+.nav-link:hover {
+  background-color: #198754;
+  border-radius: 6px;
+}
+.sidebar-link {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.admin-right-panel {
+  overflow: auto;
+}
