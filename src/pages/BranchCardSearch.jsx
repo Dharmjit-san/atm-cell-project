@@ -7,8 +7,10 @@ function BranchCardSearch() {
   const [cardType, setCardType] = useState("");
   const [cards, setCards] = useState([]);
   const [branches, setBranches] = useState([]);
+  const [cardTypes, setCardTypes] = useState([]);
   useEffect(() => {
     loadBranches();
+    loadCardTypes();
   }, []);
   const searchCards = async () => {
     const res = await axios.get(
@@ -22,6 +24,12 @@ function BranchCardSearch() {
     const res = await axios.get("http://localhost:5000/api/branch/list");
 
     setBranches(res.data);
+  };
+
+   const loadCardTypes = async () => {
+    const res = await axios.get("http://localhost:5000/api/cardtype/search");
+
+    setCardTypes(res.data);
   };
 
   return (
@@ -53,9 +61,10 @@ function BranchCardSearch() {
               onChange={(e) => setCardType(e.target.value)}
             >
               <option value="">Select Card Type</option>
-              <option>Visa</option>
-              <option>MasterCard</option>
-              <option>RuPay</option>
+              {cardTypes.map((c) => (
+                <option key={c._id} value={c.cardType}>
+                  {c.cardType}</option>
+              ))}
             </select>
 
             <button className="btn btn-primary" onClick={searchCards}>
