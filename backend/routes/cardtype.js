@@ -6,15 +6,11 @@ const Card = require("../models/Cardtype");
 
 router.get("/cardtype/search", async (req, res) => {
   try {
-    const { branch, cardType } = req.query;
+    const { cardType } = req.query;
 
     let filter = {};
 
-    if (branch) {
-      filter.branch = branch;
-    }
-
-    if (cardType) {
+   if (cardType) {
       filter.cardType = cardType;
     }
 

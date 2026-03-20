@@ -1,49 +1,34 @@
-[{
-  "_id": {
-    "$oid": "69b710f07b52079171915d14"
-  },
-  "designation": "CDEO",
-  "code": 3
-},
-{
-  "_id": {
-    "$oid": "69b7110e7b52079171915d16"
-  },
-  "designation": "Accountant",
-  "code": 3
-},
-{
-  "_id": {
-    "$oid": "69b711277b52079171915d18"
-  },
-  "designation": "Assistant Manager",
-  "code": 5
-},
-{
-  "_id": {
-    "$oid": "69b711377b52079171915d1a"
-  },
-  "designation": "Manager",
-  "code": 6
-},
-{
-  "_id": {
-    "$oid": "69b7114f7b52079171915d1c"
-  },
-  "designation": "Senior Manager",
-  "code": 7
-},
-{
-  "_id": {
-    "$oid": "69b711637b52079171915d1e"
-  },
-  "designation": "AGM",
-  "code": 8
-},
-{
-  "_id": {
-    "$oid": "69b711747b52079171915d20"
-  },
-  "designation": "DGM",
-  "code": 9
-}]
+[
+    {
+        "ranking": "1",
+        "designation": "MD"
+    }, {
+        "ranking": "2",
+        "designation": "DM"
+    }, {
+        "ranking": "3",
+        "designation": "SENIOR MANAGER"
+    }, {
+        "ranking": "4",
+        "designation": "MANAGER"
+    }, {
+        "ranking": "5",
+        "designation": "ASSTT. MANAGER"
+    }, {
+        "ranking": "6",
+        "designation": "ACCOUNTANT"
+    }, {
+        "ranking": "7",
+        "designation": "TELLER CLERK"
+    }, {
+        "ranking": "8",
+        "designation": "CLERK/DEO"
+    }, {
+        "ranking": "9",
+        "designation": "AUDITOR"
+    }, {
+        "ranking": "10",
+        "designation": "SYSTEM"
+    }
+
+]

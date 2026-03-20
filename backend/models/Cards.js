@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
 const cardSchema = new mongoose.Schema({
+
   cardNumber: {
     type: String,
     unique: true,
@@ -26,7 +27,11 @@ const cardSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  transferDate: { type: Date, default: Date.now },
+
+  transferDate: { 
+    type: Date, default: Date.now 
+  },
+
 });
 
 module.exports = mongoose.model("Card", cardSchema);

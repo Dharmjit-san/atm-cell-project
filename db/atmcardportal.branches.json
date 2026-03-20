@@ -1,40 +1,444 @@
 [{
-  "_id": {
-    "$oid": "69b6e3d48699367495ae9b23"
-  },
-  "branchName": "AMSangrur",
-  "branchCode": "1803",
-  "location": "Sangrur Punjab",
-  "manager": "Aman",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "69b6f58460e3a7b86acf4de5"
-  },
-  "branchName": "Barri",
-  "branchCode": "1857",
-  "location": "PJB",
-  "manager": "Sahil",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "69b6f5a660e3a7b86acf4de9"
-  },
-  "branchName": "cheema",
-  "branchCode": "1812",
-  "location": "PJB",
-  "manager": "Jatin",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "69b707f0194f8c22ed97582c"
-  },
-  "branchName": "Sangrur",
-  "branchCode": "1802",
-  "location": "Main Sangrur",
-  "manager": "",
-  "__v": 0
-}]
+        "branchId": "1801",
+        "branchName": "Head Office SANGRUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "6RVV+JVR, Near Co-operative Bank, Patiala Gate, Sangrur, Punjab 148001, India",
+        "phoneNumber": "",
+        "status": "Active"
+    }, {
+        "branchId": "1802",
+        "branchName": "SANGRUR (M)",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "116/8, Haripura Colony, Mansahia Colony, Sangrur, Punjab 148001, India",
+        "phoneNumber": "01672-241525",
+        "status": "Active"
+    }, {
+        "branchId": "1803",
+        "branchName": "AM SANGRUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "New Grain Market,Opposite Gate Number 3,Near Market Committie, Gobind Pura Colony, Sangrur, Punjab 148001, India",
+        "phoneNumber": "01672-232498",
+        "status": "Active"
+    }, {
+        "branchId": "1804",
+        "branchName": "AHMEDGARH",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "MRHG+4MJ, Railway Rd, Jandali Kalan, Ahmedgarh, Punjab 148021, India",
+        "phoneNumber": "01675-240085",
+        "status": "Active"
+    }, {
+        "branchId": "1805",
+        "branchName": "AM AHMEDGARH",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "MRJG+MM5, Jandali Kalan, Ahmedgarh, Punjab 148021, India",
+        "phoneNumber": "01675-244925",
+        "status": "Active"
+    }, {
+        "branchId": "1806",
+        "branchName": "AMARGARH",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "F267+X5G, Amargarh, Punjab 148022, India",
+        "phoneNumber": "01675-284239",
+        "status": "Active"
+    }, {
+        "branchId": "1807",
+        "branchName": "BHAWANIGARH",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "727P+399, Bhawanigarh, Punjab 148026, India",
+        "phoneNumber": "01672-272020",
+        "status": "Active"
+    }, {
+        "branchId": "1808",
+        "branchName": "BARNALA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Co-Operative Bank, 9HC2+V53, Pharwahi Bazaar Rd, Barnala, Punjab 148101, India",
+        "phoneNumber": "01679-230012",
+        "status": "Active"
+    }, {
+        "branchId": "1809",
+        "branchName": "BHADAUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "F8HM+P76, Majuke-Bhadaur Link Rd, Gobind Nagar, Bhadaur, Punjab 148102, India",
+        "phoneNumber": "01679-274726",
+        "status": "Active"
+    }, {
+        "branchId": "1811",
+        "branchName": "CHHAJLI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "2RRF+7M7, Chhajli, Punjab 148030, India",
+        "phoneNumber": "01676-260368",
+        "status": "Active"
+    }, {
+        "branchId": "1812",
+        "branchName": "CHEEMA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "3MXM+37R, Cheema, Punjab 148029, India",
+        "phoneNumber": "01676-284226",
+        "status": "Active"
+    }, {
+        "branchId": "1813",
+        "branchName": "DIRBA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "3X8V+25X, Dirba, Punjab 148035, India",
+        "phoneNumber": "01676-242416",
+        "status": "Active"
+    }, {
+        "branchId": "1814",
+        "branchName": "DHANAULA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Ward Street Number 3 jawandha patti, Dhanaula, Punjab 148105, India",
+        "phoneNumber": "01679-264521",
+        "status": "Active"
+    }, {
+        "branchId": "1815",
+        "branchName": "DHURI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "148024, Tehsil Mohalla, Subash Nagar, Dhuri, Punjab 148024, India",
+        "phoneNumber": "01675-220026",
+        "status": "Active"
+    }, {
+        "branchId": "1816",
+        "branchName": "AM DHURI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Shop No 13 Near Dhobhi Dhat New Grain Mkt. Dhuri 148024, Park Rd, Subash Nagar, Dhuri, Punjab 148024, India",
+        "phoneNumber": "01675-222959",
+        "status": "Active"
+    }, {
+        "branchId": "1817",
+        "branchName": "JAKHEPAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "3P7G+PP9, Jakhepal, Punjab 148030, India",
+        "phoneNumber": "01676-288109",
+        "status": "Active"
+    }, {
+        "branchId": "1818",
+        "branchName": "KHANAURI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "R4P5+MMQ, Khanauri, Punjab 148027, India",
+        "phoneNumber": "01676-250172",
+        "status": "Active"
+    }, {
+        "branchId": "1819",
+        "branchName": "LEHRAGAGA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "WRQ5+7GC, adjacent to Co-Operative Bank, Lehragaga, Punjab 148031, India",
+        "phoneNumber": "01676-272020",
+        "status": "Active"
+    }, {
+        "branchId": "1820",
+        "branchName": "LONGOWAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "5MWJ+7G9, near saheed Bhagat Singh Library, Longowal, Punjab 148106, India",
+        "phoneNumber": "01672-283735",
+        "status": "Active"
+    }, {
+        "branchId": "1821",
+        "branchName": "MOONAK",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Moonak, Punjab 148033, India",
+        "phoneNumber": "01676-276404",
+        "status": "Active"
+    }, {
+        "branchId": "1822",
+        "branchName": "MEHAL KALAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "GHG9+6QJ, SH 13, Mehal Kalan, Punjab 148104, India",
+        "phoneNumber": "01679-255125",
+        "status": "Active"
+    }, {
+        "branchId": "1823",
+        "branchName": "MALERKOTLA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "GVFQ+824, College Rd, Sajida Colony, Malerkotla, Punjab 148023, India",
+        "phoneNumber": "01675-253040",
+        "status": "Active"
+    }, {
+        "branchId": "1825",
+        "branchName": "PAKHO KAINCHIAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "CC4H+4H8, SH43, Pakho Kaichian, Punjab 148103, India",
+        "phoneNumber": "01679-288488",
+        "status": "Active"
+    }, {
+        "branchId": "1826",
+        "branchName": "SUNAM",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "4RJ4+XXC, Bus Stand Rd, Balmiki Basti, Sunam, Punjab 148028, India",
+        "phoneNumber": "01676-220516",
+        "status": "Active"
+    }, {
+        "branchId": "1827",
+        "branchName": "AM SUNAM",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "4RG7+3X3, BATHINDA ROAD, Sunam, Punjab 148028, India",
+        "phoneNumber": "01676-223502",
+        "status": "Active"
+    }, {
+        "branchId": "1828",
+        "branchName": "SANGHERA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "9HX8+X96, SH 13, Sanghera, Punjab 148025, India",
+        "phoneNumber": "01679-231144",
+        "status": "Active"
+    }, {
+        "branchId": "1829",
+        "branchName": "SHAINA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "C9FJ+HF, Sehna, Punjab 148103, India",
+        "phoneNumber": "01679-270421",
+        "status": "Active"
+    }, {
+        "branchId": "1830",
+        "branchName": "SANDAUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "HPFR+F9J, Sandhaur, Punjab 148020, India",
+        "phoneNumber": "01675-268650",
+        "status": "Active"
+    }, {
+        "branchId": "1831",
+        "branchName": "SHERPUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "CPQ5+GH Sherpur, Punjab, India",
+        "phoneNumber": "01675-233230",
+        "status": "Active"
+    }, {
+        "branchId": "1832",
+        "branchName": "TAPA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "79X9+XXX, Tapa, Punjab 148108, India",
+        "phoneNumber": "01679-272633",
+        "status": "Active"
+    }, {
+        "branchId": "1833",
+        "branchName": "SARON",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "8V8W+JFC, Saron-Rupa Heri Rd, Rupa Heri, Punjab 148017, India",
+        "phoneNumber": "01672-246247",
+        "status": "Active"
+    }, {
+        "branchId": "1834",
+        "branchName": "BHINDRAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "7W77+5M9, Bhindran, Punjab 148001, India",
+        "phoneNumber": "01672-246244",
+        "status": "Active"
+    }, {
+        "branchId": "1835",
+        "branchName": "DHADRIAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "5HGX+W46, Road, Rathoke, Punjab 148106, India",
+        "phoneNumber": "01672-288286",
+        "status": "Active"
+    }, {
+        "branchId": "1836",
+        "branchName": "MASTUANA SAHIB",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "7Q8G+433, Sangrur, Punjab 148001, India",
+        "phoneNumber": "01672-289225",
+        "status": "Active"
+    }, {
+        "branchId": "1837",
+        "branchName": "KANJHLA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "8Q5F+9XM, Kanjhla, Punjab 148034, India",
+        "phoneNumber": "01675-238107",
+        "status": "Active"
+    }, {
+        "branchId": "1838",
+        "branchName": "KALAJHAR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "7594+9JP, NH 7, Channo, Punjab 148026, India",
+        "phoneNumber": "01672-274529",
+        "status": "Active"
+    }, {
+        "branchId": "1839",
+        "branchName": "GEHLAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "8X8R+X89 Park, Gehlan, Punjab 148026, India",
+        "phoneNumber": "01672-276510",
+        "status": "Active"
+    }, {
+        "branchId": "1840",
+        "branchName": "SHERON",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "5P56+2XJ, Sheron, Punjab 148106, India",
+        "phoneNumber": "01676-286205",
+        "status": "Active"
+    }, {
+        "branchId": "1841",
+        "branchName": "KAUHRIAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "XWV7+38W, Kauhrian, Punjab 148035, India",
+        "phoneNumber": "01676-247261",
+        "status": "Active"
+    }, {
+        "branchId": "1842",
+        "branchName": "KAMALPUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "428W+532, Sangrur, Punjab 148035, India",
+        "phoneNumber": "01676-249169",
+        "status": "Active"
+    }, {
+        "branchId": "1843",
+        "branchName": "LEHAL KALAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "627R+WGG, Balial - Bhattiwal Kalan Rd, Bhattiwal Kalan, Punjab 148026, India",
+        "phoneNumber": "01676-256030",
+        "status": "Active"
+    }, {
+        "branchId": "1844",
+        "branchName": "MANDVI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "RX3Q+F2R, Punjab 148033, India",
+        "phoneNumber": "01676-258075",
+        "status": "Active"
+    }, {
+        "branchId": "1845",
+        "branchName": "MANIANA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "PWXG+P34, Tohana, Punjab 148033, India",
+        "phoneNumber": "01676-270035",
+        "status": "Active"
+    }, {
+        "branchId": "1846",
+        "branchName": "RUREKE KALAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "JR92+9R Kangarpur, Punjab, India",
+        "phoneNumber": "01679-278803",
+        "status": "Active"
+    }, {
+        "branchId": "1847",
+        "branchName": "KALEKE",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "6GQV+JGH, Kaleke Link Rd, Kaleke, Punjab 148105, India",
+        "phoneNumber": "01679-261129",
+        "status": "Active"
+    }, {
+        "branchId": "1848",
+        "branchName": "MAUR NABA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "99CP+78Q, Mauran, Punjab 148108, India",
+        "phoneNumber": "01679-276064",
+        "status": "Active"
+    }, {
+        "branchId": "1849",
+        "branchName": "TELLEWAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Vpo, FCR8+H6M, Tallewal, Punjab 148100, India",
+        "phoneNumber": "01679-227821",
+        "status": "Active"
+    }, {
+        "branchId": "1850",
+        "branchName": "CHANANWAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "GF3V+RP Chananwal, Punjab, India",
+        "phoneNumber": "01679-289321",
+        "status": "Active"
+    }, {
+        "branchId": "1851",
+        "branchName": "KUTBA",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "HJHG+F6F, Kutba, Punjab 148104, India",
+        "phoneNumber": "01679-252547",
+        "status": "Active"
+    }, {
+        "branchId": "1852",
+        "branchName": "KHANPUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "HX32+2GF, Sangrur, Punjab 148023, India",
+        "phoneNumber": "01675-283248",
+        "status": "Active"
+    }, {
+        "branchId": "1853",
+        "branchName": "MANVI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "G2W8+QJ Manvi, Punjab, India",
+        "phoneNumber": "01675-281856",
+        "status": "Active"
+    }, {
+        "branchId": "1854",
+        "branchName": "DHADOGAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "CXHC+4M3, Dhadhogal, Punjab 148022, India",
+        "phoneNumber": "01675-279136",
+        "status": "Active"
+    }, {
+        "branchId": "1855",
+        "branchName": "HATHAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "CRVC+2HP, Sangrur, Punjab 148024, India",
+        "phoneNumber": "01675-232470",
+        "status": "Active"
+    }, {
+        "branchId": "1856",
+        "branchName": "KANGANWAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "JRC5+3V5, Link Rd, Kangarpur, Punjab 148021, India",
+        "phoneNumber": "01675-247240",
+        "status": "Active"
+    }, {
+        "branchId": "1857",
+        "branchName": "BARRI",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "FP95+7RC, Bari, Punjab 148025, India",
+        "phoneNumber": "01675-236195",
+        "status": "Active"
+    }, {
+        "branchId": "1858",
+        "branchName": "PANJGRAIAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "GPC4+475, Fatehgarh Panjgaraian, Punjab 148020, India",
+        "phoneNumber": "01676-292271",
+        "status": "Active"
+    }, {
+        "branchId": "1859",
+        "branchName": "GHARACHON",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "6X87+JJ8, Gharachon, Punjab 148026, India",
+        "phoneNumber": "01672-248040",
+        "status": "Active"
+    }, {
+        "branchId": "1860",
+        "branchName": "NADAMPUR",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "7457+CRC, Nadampur, Punjab 148026, India",
+        "phoneNumber": "01672-265563",
+        "status": "Active"
+    }, {
+        "branchId": "1861",
+        "branchName": "BHATTIWAL KALAN",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "627R+WGG, Balial - Bhattiwal Kalan Rd, Bhattiwal Kalan, Punjab 148026, India",
+        "phoneNumber": "01672-260188",
+        "status": "Active"
+    }, {
+        "branchId": "1862",
+        "branchName": "HARIAU",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "XP76+722, Haryau - Lehra Rd, Haryau, Punjab 148031, India",
+        "phoneNumber": "01676-279648",
+        "status": "Active"
+    }, {
+        "branchId": "1863",
+        "branchName": "THULIWAL",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "FJQV+CJV, Thuliwal, Punjab 148025, India",
+        "phoneNumber": "01679-224642",
+        "status": "Active"
+    }, {
+        "branchId": "1864",
+        "branchName": "KATTU",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "8J6P+M2H, Kattu, Punjab 148105, India",
+        "phoneNumber": "01679-267544",
+        "status": "Active"
+    }, {
+        "branchId": "1865",
+        "branchName": "KATRON",
+        "branchIFSC": "UTIB0SCCB01",
+        "address": "Katron, Punjab 148025, India",
+        "phoneNumber": "01675-233251",
+        "status": "Active"
+    }
+
+]

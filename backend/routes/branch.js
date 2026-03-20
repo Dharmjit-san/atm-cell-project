@@ -6,10 +6,10 @@ const Branch = require("../models/Branch");
 // ADD BRANCH
 router.post("/branch/add", async (req, res) => {
   try {
-    const { branchName, branchCode, location, manager } = req.body;
+    const { branchName, branchId, address, phoneNumber } = req.body;
 
     const existingBranch = await Branch.findOne({
-      $or: [{ branchName: branchName }, { branchCode: branchCode }],
+      $or: [{ branchName: branchName }, { branchId: branchId }],
     });
 
     if (existingBranch) {
@@ -18,9 +18,9 @@ router.post("/branch/add", async (req, res) => {
 
     const branch = new Branch({
       branchName,
-      branchCode,
-      location,
-      manager,
+      branchId,
+      address,
+      phoneNumber
     });
 
     await branch.save();
@@ -34,7 +34,6 @@ router.post("/branch/add", async (req, res) => {
 // GET ALL BRANCHES
 router.get("/branch/list", async (req, res) => {
   const branches = await Branch.find();
-  console.log("Branch List:");
   res.json(branches);
 });
 

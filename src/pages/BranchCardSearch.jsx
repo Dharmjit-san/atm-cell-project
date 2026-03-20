@@ -4,7 +4,7 @@ import Sidebar from "../components/Sidebar";
 import AdminNavbar from "../components/AdminNavbar";
 function BranchCardSearch() {
   const [branch, setBranch] = useState("");
-  const [cardType, setCardType] = useState("");
+  const [cardTypef, setCardType] = useState("");
   const [cards, setCards] = useState([]);
   const [branches, setBranches] = useState([]);
   const [cardTypes, setCardTypes] = useState([]);
@@ -14,7 +14,7 @@ function BranchCardSearch() {
   }, []);
   const searchCards = async () => {
     const res = await axios.get(
-      `http://localhost:5000/api/card/search?branch=${branch}&cardType=${cardType}`,
+      `http://localhost:5000/api/card/search?branch=${branch}&cardType=${cardTypef}`,
     );
 
     setCards(res.data);
@@ -57,7 +57,7 @@ function BranchCardSearch() {
             </select>
             <select
               className="form-control mb-2"
-              value={cardType}
+              value={cardTypef}
               onChange={(e) => setCardType(e.target.value)}
             >
               <option value="">Select Card Type</option>

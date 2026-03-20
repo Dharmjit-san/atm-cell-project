@@ -6,6 +6,12 @@ const userSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
+    roleId: {
+    type: String,
+    required: true,
+    unique: true,
+  },
 });
+
 
 module.exports = mongoose.model("Role", userSchema);

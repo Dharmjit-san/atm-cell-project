@@ -5,10 +5,9 @@ import AdminNavbar from "../components/AdminNavbar";
 
 function ManageBranch() {
   const [branchName, setBranchName] = useState("");
-  const [branchCode, setBranchCode] = useState("");
-  const [location, setLocation] = useState("");
-  const [manager, setManager] = useState("");
-
+  const [branchId, setBranchCode] = useState("");
+  const [address, setLocation] = useState("");
+  const [phoneNumber, setPhoneNumber] = useState("");
   const [branches, setBranches] = useState([]);
   const [search, setSearch] = useState("");
 
@@ -25,14 +24,20 @@ function ManageBranch() {
 
   // ADD BRANCH
   const addBranch = async () => {
-    await axios.post("http://localhost:5000/api/branch/add", {
+    const res = await axios.post("http://localhost:5000/api/branch/add", {
       branchName,
-      branchCode,
-      location,
-      manager,
+      branchId,
+      address,
+      phoneNumber,
     });
-
-    alert("Branch Added");
+    if(res.data.status == "success")
+    {
+        alert("Branch Added");
+    }
+    else
+    {
+        alert(res.data.message);
+    }
 
     loadBranches();
   };
@@ -41,9 +46,7 @@ function ManageBranch() {
   const deleteBranch = async (id) => {
     if (window.confirm("Are you sure you want to delete this branch?")) {
       await axios.delete(`http://localhost:5000/api/branch/delete/${id}`);
-
       alert("Branch Deleted Successfully");
-
       loadBranches();
     }
   };
@@ -56,28 +59,32 @@ function ManageBranch() {
           <h4>Manage Branch</h4>
 
           <div className="card p-3 mb-4">
+             <input
+              className="form-control mb-2"
+              placeholder="Branch Code"
+              onChange={(e) => setBranchCode(e.target.value)}
+              required
+            />
+
             <input
               className="form-control mb-2"
               placeholder="Branch Name"
               onChange={(e) => setBranchName(e.target.value)}
+              required
             />
 
             <input
               className="form-control mb-2"
-              placeholder="Branch Code"
-              onChange={(e) => setBranchCode(e.target.value)}
-            />
-
-            <input
-              className="form-control mb-2"
-              placeholder="Location"
+              placeholder="Address"
               onChange={(e) => setLocation(e.target.value)}
+              required
             />
 
             <input
               className="form-control mb-2"
-              placeholder="Manager"
-              onChange={(e) => setManager(e.target.value)}
+              placeholder="Phone Number"
+              onChange={(e) => setPhoneNumber(e.target.value)}
+              required
             />
 
             <button className="btn btn-success" onClick={addBranch}>
@@ -98,8 +105,8 @@ function ManageBranch() {
                   <th>SNo</th>
                   <th>Name</th>
                   <th>Code</th>
-                  <th>Location</th>
-                  <th>Manager</th>
+                  <th>Address</th>
+                  <th>Phone</th>
                   <th>Action</th>
                 </tr>
               </thead>
@@ -113,9 +120,9 @@ function ManageBranch() {
                     <tr key={b._id}>
                       <td>{index + 1}</td>
                       <td>{b.branchName}</td>
-                      <td>{b.branchCode}</td>
-                      <td>{b.location}</td>
-                      <td>{b.manager}</td>
+                      <td>{b.branchId}</td>
+                      <td>{b.address}</td>
+                      <td>{b.phoneNumber}</td>
 
                       <td>
                         <button
