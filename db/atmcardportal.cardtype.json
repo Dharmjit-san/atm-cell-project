@@ -1,0 +1,8 @@
+[{
+  "cardType": "RuPay EMV Insta",
+  "cardTypeId": "1"
+},
+{
+  "cardType": "KCC EMV Insta",
+  "cardTypeId": "2"
+}]
